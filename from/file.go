@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-// FileHandler implements a JSONHandler interface to 
+// FileHandler implements a JSONHandler interface to
 // extract data from a file
 type FileHandler struct {
 	filename string

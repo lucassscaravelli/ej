@@ -13,7 +13,7 @@ var (
 	errNilBody           = errors.New("request body is nil")
 )
 
-// RequestHandler implements a JSONHandler interface 
+// RequestHandler implements a JSONHandler interface
 // to extract data from a http request
 type RequestHandler struct {
 	responseWriter http.ResponseWriter
