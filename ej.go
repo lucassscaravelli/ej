@@ -42,7 +42,7 @@ func (e *EJ) ParseToData(data interface{}) error {
 	return nil
 }
 
-// Write the JSON encoding of "data" in the 
+// Write the JSON encoding of "data" in the
 // source of JSONHandler
 func (e *EJ) Write(data interface{}) error {
 
