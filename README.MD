@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/lucassscaravelli/ej.svg?branch=master)](https://travis-ci.org/lucassscaravelli/ej)
 [![Coverage Status](https://coveralls.io/repos/github/lucassscaravelli/ej/badge.svg?branch=master)](https://coveralls.io/github/lucassscaravelli/ej?branch=master)
 [![GoDoc](https://godoc.org/github.com/lucassscaravelli/ej?status.svg)](https://godoc.org/github.com/lucassscaravelli/ej)
+[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
 
 Package ```ej``` implements a JSON handler to write and read json succinctly from different sources like files and http requests.
 
