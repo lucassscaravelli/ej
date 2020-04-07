@@ -122,3 +122,36 @@ func main() {
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 ```
+
+### HTTP Response
+
+``` go
+package main
+
+import (
+	"log"
+	"net/http"
+
+	"github.com/lucassscaravelil/ej"
+	"github.com/lucassscaravelil/ej/from"
+)
+
+type testData struct {
+	Count int
+	Txt   string
+}
+
+func main() {
+	var responseData testData
+	response, err := http.Get("http://<url>/any")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	if err := ej.JSON(Response(response)).ParseToData(&responseData); err != nil {
+		log.Fatal(err)
+	}
+
+	fmt.Printf("dataRead: %+v\n", responseData)
+}
+```
